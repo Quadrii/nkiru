@@ -1,21 +1,24 @@
-/*--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
---*/
 html, body{
     font-size: 100%;
 	background:	#fff;
-	font-family:'Open Sans', sans-serif;
+    color: black !important;
+    font-family: Museo !important;
+}
+.back {
+    background-color:#eee;
+    height: auto;
 }
 p{
 	margin:0;
 	font-size:14px;
 }
+.img-responsive{
+    width: 196px;
+    height: 223px;        
+}
 h1,h2,h3,h4,h5,h6{
-	font-family: 'Glegoo', serif;
-	margin:0;
+font-family: Museo !important;	
+margin:0;
 }
 ul,label{
 	margin:0;
@@ -1284,7 +1287,7 @@ ul.wmuSliderPagination {
 /*-- //newsletter --*/
 /*-- footer --*/
 .footer{
-	padding:4em 0;
+	padding:1em 0;
 	background:#000;
 }
 .w3_footer_grid h3{
@@ -2518,12 +2521,12 @@ h2.typoh2{
 .w3l_faq_grid h3{
 	font-size:1.3em;
 	color:#212121;
-	line-height:1.5em;
+	// line-height:1.5em;
 	margin-bottom:1em;
 }
 .w3l_faq_grid p{
 	color:#999;
-	line-height:1.8em;
+	// line-height:1.8em;
 }
 .w3l_faq_grids{
 	width:70%;
@@ -2536,12 +2539,12 @@ h2.typoh2{
 /*-- about --*/
 .w3ls_about_grid_left p{
 	color:#999;
-	line-height:1.8em;
+	// line-height:1.8em;
 	margin-bottom:2em;
 }
 .w3ls_about_grid_left2 p{
-	color:#999;
-	line-height:1.8em;
+	color: #494a50;
+	// line-height:1.8em;
 }
 .w3ls_about_grid_left1 {
     text-align: center;
@@ -2627,7 +2630,7 @@ h2.typoh2{
 	margin:0 0 1em;
 }
 .contact-left p{
-	color: #999;
+	color: black;
     line-height: 1.8em;
     margin: 0;
     text-transform: capitalize;
@@ -2644,10 +2647,10 @@ h2.typoh2{
 	list-style-type: none;
     margin: 0 0 1em;
     font-size: 14px;
-    color: #999;
+    color: black;
 }
 .contact-left ul li a{
-	color:#999;
+	color:black;
 	text-decoration:none;
 }
 .contact-left ul li a:hover{
