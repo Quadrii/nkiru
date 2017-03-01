@@ -37,6 +37,34 @@
 			});
 		</script>
 		<!-- //end-smooth-scrolling --> 
+
+		<script type="text/javascript">
+	      function validate()
+	      {
+	      
+	         if( document.myForm.Name.value == "" )
+	         {
+	            alert( "Please provide your name!" );
+	            document.myForm.Name.focus() ;
+	            return false;
+	         }
+	         
+	         if( document.myForm.Email.value == "" )
+	         {
+	            alert( "Please provide your Email!" );
+	            document.myForm.Email.focus() ;
+	            return false;
+	         }
+
+	         if( document.myForm.message.value == "" )
+	         {
+	            alert( "Kindly provide short note" );
+	            document.myForm.message.focus() ;
+	            return false;
+	         }
+	         return( true );
+	      }
+		</script>
 	</head> 
 <body> 
 	<!-- header modal -->
@@ -121,11 +149,11 @@
 				</div>
 				<div class="col-md-7 contact-left">
 					<h4>Contact Form</h4>
-					<form action="#" method="post">
-						<input type="text" name="Name" placeholder="Your Name" required="">
-						<input type="email" name="Email" placeholder="Your Email" required="">
-						<input type="text" name="Telephone" placeholder="Telephone No" required="">
-						<textarea name="message" placeholder="Message..." required=""></textarea>
+					<form action="email_script.php" name="myForm" onsubmit="return(validate());" method="POST">
+						<input type="text" name="Name" placeholder="Your Name">
+						<input type="email" name="Email" placeholder="Your Email">
+						<input type="text" name="Telephone" placeholder="Telephone No">
+						<textarea name="message" placeholder="Message..."></textarea>
 						<input type="submit" value="Submit" >
 					</form>
 				</div>
