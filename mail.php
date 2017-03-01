@@ -109,7 +109,7 @@
 						<li><a href="about.html">About Us</a></li> 
 						<li><a href="service.html">Services</a></li>
 						<li><a href="products1.html">Gallery</a></li>	  
-						<li><a href="mail.html" class="act">Contact Us</a></li>
+						<li><a href="mail.php" class="act">Contact Us</a></li>
 					</ul>
 				</div>
 			</nav>
