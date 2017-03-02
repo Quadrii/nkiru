@@ -1,11 +1,12 @@
 <?php 
-	$name = $_POST['Name'];
+	$firstname = $_POST['firstname'];
+	$lastname = $_POST['lastname'];
 	$email = $_POST['Email'];
 	$telephone = $_POST['Telephone'];
-	$message = $_POST['message'];
-	$formcontent = "From: $name \n Message: $message \n Email: $email \n Phone: $telephone";
+	$description = $_POST['description'];
+	$formcontent = "From: $firstname $lastname \n Description: $description \n Email: $email \n Phone: $telephone";
 	$recipient = "adisa.ahmed881@gmail.com";
-	$subject = "Contact Form";
+	$subject = "NK & N Store";
 	$mailheader = "From: $email \r\n";
 
 	mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
