@@ -61,11 +61,11 @@
 		</div>
 	</div>
 	<div class="container">
-		<form style="margin-top: 20px;">
+		<form style="margin-top: 20px;" action="quote_script.php" name="myForm" onsubmit="return(validate());" method="POST">
 			 <div class="form-group">
 			  	<div class="col-md-6">
 				    <label for="Firstname">Firstname:</label>
-				    <input type="frstname"  name="firstname"class="form-control" id="frstname">
+				    <input type="frstname"  name="firstname" class="form-control" id="frstname">
 			  	</div>
 			  	<div class="col-md-6">
 				    <label for="Lastname">Lastname:</label>
@@ -75,7 +75,7 @@
 		   	<div class="form-group"  style="margin-top: 20px;" >
 			    <div class="col-md-6" style="margin-top: 20px;">
 			    	<label for="E-mail">E-mail:</label>
-			    	<input type="E-mail" name="E-mail" class="form-control" id="emal">
+			    	<input type="E-mail" name="Email" class="form-control" id="emal">
 			    </div>
 		  	</div>
 			<div class="col-md-6" style="margin-top: 20px;">
@@ -92,9 +92,7 @@
 			  	<textarea class="form-control" name="description" rows="5" id="description"></textarea>
 			  </div>
 			</div>
-			<div class="col-md-12" style="margin-top: 20px;">
-				<button type="submit" class="btn btn-default" class="but">Submit</button>
-			</div>
+			<input type="submit" value="Submit" >
 		</form>
 	</div>
 	<div class="footer" style="margin-top:100PX;">		
