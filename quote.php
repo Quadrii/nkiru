@@ -42,7 +42,7 @@
 	<div class="header" id="home1">
 		<div class="container">
 			<div class="w3l_login">
-				<a href="#" data-toggle="modal" data-target="#myModal88"><span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
+				<a href="index.html"><div class="log"></a></div>
 			</div>
 			<div class="w3l_logo">
 				<h1><a href="index.html">NK & N Store<span>Your stores. Your place.</span></a></h1>
@@ -72,7 +72,7 @@
 					<ul class="nav navbar-nav">
 						<li><a href="index.html">Home</a></li>	
 						<!-- Mega Menu -->
-						<li><a href="about.html" class="act">About Us</a></li> 
+						<li><a href="about.html">About Us</a></li> 
 						<li><a href="service.html">Services</a></li>	  
 						<li><a href="products1.html">Gallery</a></li>
 						<li><a href="mail.php">Contact Us</a></li>
@@ -126,7 +126,7 @@
 			  	<textarea class="form-control" name="description" rows="5" id="description"></textarea>
 			  </div>
 			</div>
-			<input type="submit" value="Submit" >
+			<input type="submit" value="Submit" class="but">
 		</form>
 	</div>
 	<div class="footer" style="margin-top:100PX;">		

@@ -1,9 +1,21 @@
-// button{
-//     margin-top: 30px;
-//     height: 40px;
-//     width: 30%;
-// }
+.but{
+    margin-top: 30px;
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+}
+.but:hover{
+    color: white;
+    background-color: blue;
+}
+.log{
+    background-image: url(../images/nkiru.jpg);
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    height: 100px;
 
+}
 html, body{
     font-size: 100%;
 	background:	#fff;
@@ -45,10 +57,12 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_login{
 	float:left;
+    height: 100px;
+    width: 33%;
 }
 .w3l_logo{
 	float:left;
-	margin-left:22em;
+	// margin-left:22em;
 }
 .w3l_logo h1 a{
 	font-size:1.1em;
@@ -66,13 +80,13 @@ input[type="submit"],.panel-body ul li a,.checkout-right-basket a,.additional_in
 }
 .w3l_login a {
     font-size: .8em;
-    color: #3c43a4;
-    width: 50px;
-    height: 50px;
-    display: block;
-    text-align: center;
-    border: 1px solid #3c43a4;
-	margin-top: 0.5em;
+    // color: #3c43a4;
+    // width: 50px;
+    // height: 50px;
+    // display: block;
+    // text-align: center;
+    // border: 1px solid #3c43a4;
+	// margin-top: 0.5em;
 }
 .w3l_login a span{
 	top:1.3em;
